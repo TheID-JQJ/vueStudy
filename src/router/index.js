@@ -1,10 +1,10 @@
 import vue from 'vue';
 import VueRouter from 'vue-router';
 
-const home = () => import('../views/home/Home.vue');
-const find = () => import('../views/find/Find');
-const shopcart = () => import('../views/shopcart/Shopcart');
-const profile = () => import('../views/profile/Profile');
+const home = () => import('@/views/home/Home.vue');
+const find = () => import('@/views/find/Find');
+const shopcart = () => import('@/views/shopcart/Shopcart');
+const profile = () => import('@/views/profile/Profile');
 
 vue.use(VueRouter);
 
